@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #ffffff;
+	padding: 20px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img {
+	height: 40px;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+}
+
+li {
+	margin-right: 20px;
+}
+
+li:last-child {
+	margin-right: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.search-box {
+	display: flex;
+}
+
+input[type="text"] {
+	border: none;
+	padding: 10px;
+	border-radius: 5px 0 0 5px;
+}
+
+button[type="submit"] {
+	background-color: #FF3E6C;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 0 5px 5px 0;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.cart img {
+	height: 30px;
+}
+
+.account {
+	margin-left: 20px;
+}
+
+.login-box {
+	width: 380px;
+	height: 500px;
+	background: #fff;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+	padding: 70px 30px;
+	box-sizing: border-box;
+}
+
+.login-box h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 28px;
+}
+
+.login-box label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.login-box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #FF3E6C;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+	cursor: pointer;
+	background: #b30000;
+	color: #fff;
+}
+
+.login-box a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+}
+
+.login-box p {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+}

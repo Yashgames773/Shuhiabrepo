@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forget Password - Myntra</title>
+	<link rel="stylesheet" type="text/css" href="./cascading_style_sheets/forget.css">
+</head>
+<body>
+    <header>
+		<nav>
+			<div class="logo">
+				<a href="#"><img src="./images/myntra-seeklogo.com.svg"  height="70" width="70"></a>
+			</div>
+			<ul class="bold">
+                <li><a href="main.html">HOME</a></li>
+				<li><a href="men.html">MEN</a></li>
+				<li><a href="women.html">WOMEN</a></li>
+				<li><a href="kids.html">KIDS</a></li>
+				<li><a href="beauty.html">BEAUTY</a></li>
+				<li><a href="gift.html">GIFT CARDS</a></li>
+			</ul>
+			<div class="search-box">
+				<input type="text" placeholder="Search for products, brands and more">
+				<button type="submit">Search</button>
+			</div>
+			<div class="cart">
+				<a href="#"><img src="./images/shopping-cart-svgrepo-com.svg"></a>
+			</div>
+			
+		</nav>
+	</header><br><br>
+	<div class="container">
+		<h1>Forget Password</h1>
+		<p>Please enter your registered email address below to reset your password.</p>
+		<form>
+			<label>Email</label>
+			<input class="email"type="email" id="email" name="email" required>
+			<button type="button" onclick="resetPassword()">Reset Password</button>
+		</form>
+		<div id="message"></div>
+	</div>
+
+	<script src="./javascript/forget.js"></script>
+</body>
+</html>

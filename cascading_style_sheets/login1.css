@@ -1,0 +1,135 @@
+/* General styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+
+header {
+  background-color:rgb(206, 172, 172);
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 40px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  border: none;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  width: 200px;
+}
+
+button[type="submit"] {
+  background-image: linear-gradient(to bottom right, #FF3E6C, #8C43FF);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cart img {
+  height: 30px;
+}
+
+.account {
+  margin-left: 20px;
+}
+
+.login-box {
+  width: 320px;
+  height: 410px;
+  background: #ffffff;
+  color: #000000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+  padding: 70px 30px;
+  box-sizing: border-box;
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #000000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-image: linear-gradient(to bottom right, #FF3E6C, #8C43FF);
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
